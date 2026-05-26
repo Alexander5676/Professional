@@ -1,0 +1,1 @@
+export default function Report(){const data=JSON.parse(localStorage.getItem("careerResults")||"{}"); return <main className="max-w-[420px] mx-auto p-4"><div className="card p-4"><h1 className="font-bold mb-2">Аналитический отчет</h1><pre className="text-xs whitespace-pre-wrap">{JSON.stringify(data,null,2)}</pre></div></main>}
